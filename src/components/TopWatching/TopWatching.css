@@ -1,0 +1,46 @@
+.anime-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 70px;
+  }
+  
+  .anime-item {
+  
+   
+    border-radius: 8px;
+    padding: 16px;
+    margin: 50px;
+    text-align: center;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color:#242424;
+    transition: transform 0.2s;
+  }
+  
+  .anime-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5%;
+   
+    
+ 
+  }
+  .h3{
+    align-items: center;
+}  
+.h4{
+  align-items: center;
+ 
+
+}
+#playIcon{
+    position:absolute ;
+    margin-top: 370px;
+}
+#title{
+    position: bottom;
+
+    display: grid;
+}
+#status{
+color:gray
+}
