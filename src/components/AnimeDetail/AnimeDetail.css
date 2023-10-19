@@ -1,48 +1,71 @@
 .anime-img {
 
-   margin-left:500px ;
-   margin-top: -500px;
-   width: 250px;
-   
-  
-
-}
-
-
-.info-lef{
-   
-      width: 300px; /* Adjust the width as per your preference */
-      border-radius: 5%;   
-      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-      text-align: center;
-      margin-top: 0; /* Set margin-top to 0 to move it to the top */
-      margin-bottom: 20px; /* Adjust margin-bottom as needed */
+    margin-left:500px ;
+    margin-top: -500px;
+    width: 200px;
     
+   
+ 
+ }
+ 
+ 
+ .info-lef{
+    
+       width: 300px; /* Adjust the width as per your preference */
+       border-radius: 5%;   
+       box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+       text-align: center;
+       margin-top: 0; /* Set margin-top to 0 to move it to the top */
+       margin-bottom: 20px; /* Adjust margin-bottom as needed */
      
-}
-.anime-container-d{
-    width: 65%;
-    border-radius: 2%;   
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    margin-left: 200px;
-    position:relative;
+      
+ }
+ .anime-container-d{
+     width: 65%;
+        
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+     margin-left: 200px;
+     /* position:relative; */
+ 
+     margin-top: 60px;
+     
+ 
+   
+ }
+ .info{
+     margin-left: 200px;
+     width: 60%;
+     margin-top: 250px;
+ }
+ .container{
+     margin-left: 200px;
+     
+ }
+ .anime-title{
+     margin-left: 150px;
+     margin-bottom: -170px;
+     padding: 40px;
+ }
+ .characters-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    width: 90%;
+    margin-left: 50px;
+  }
   
-    margin-top: 60px;
-    
+  #character-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+   
+  }
+  
+  #character-img {
+    width: 150px;
 
-  
-}
-.info{
-    margin-left: 200px;
-    width: 60%;
-    margin-top: 300px;
-}
-.container{
-    margin-left: 200px;
-    
-}
-.anime-title{
-    margin-left: 150px;
-    margin-bottom: -170px;
-    
-}
+  }
+  #label{
+
+    padding: 30px;
+  }

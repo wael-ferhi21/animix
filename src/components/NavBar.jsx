@@ -3,7 +3,7 @@ import '../Styles/NavBarStyles.css'
 import { BiSearchAlt } from 'react-icons/bi'
 import { Routes, Route, NavLink } from 'react-router-dom'
 import Animes from './Animes/Animes'
-import LastUpdates from './LastUpdates'
+import LastUpdates from './LastUpdates/LastUpdates'
 import TopWatching from './TopWatching/TopWatching'
 
 
@@ -15,7 +15,9 @@ function NavBar() {
         <Fragment>
             <nav className={toggle ? '' : 'NavBarColor'}>
                 <div className='nav-options'>
+                <NavLink to="/" >
                     <h1 id={toggle ? '' : 'heading'} > <img src=".././gojo.png" width="60" /> ANIMIX </h1>
+                    </NavLink>
                     <NavLink to="/LastUpdates" style={({isActive})=>{return{color:isActive ? '#fff':'#EE9B00'}}}>
                         <span id={toggle ? 'Movies' : 'MoviesLight'}> LAST UPDATES </span>
                     </NavLink>
